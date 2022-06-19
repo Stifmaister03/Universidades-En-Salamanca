@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(101, 33, 165);
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color:blueviolet; }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+
+
+
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/UTS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#universidades .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#oportunidades{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#oportunidades .container{
+    padding: 150px 12px;
+}
+
+#oportunidades h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#oportunidades .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    );
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    );
+
+}
+p {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+table {
+    width: 100%;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+h2 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.knowledge {
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    overflow: hidden;
+}
+.knowledge_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+}
+.knowledge_picture{
+    max-width: 500px;
+}
+.knowledge_paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+.knowledge_img{
+    width: 100%;
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(68, 68, 68);
+}
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0;
+    color: #9e9797;
+  }
+  .h4{
+    color: #ccc;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+.cf{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    height: 150px;
+}
+  .cfoo{
+    text-align: center;
+  }
+  .fp {
+    color: #9e9797;
+  }
+  .kakak {
+    text-decoration: none;
+    color: #9e9797;
+  }
+  .kakak:hover {
+    text-decoration: underline;
+  }
